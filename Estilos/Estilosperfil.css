@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: #CCE8FF;
+    padding: 25px 10%;
+}
+
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+li,
+a {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: black;
+}
+
+.nav-link {
+    padding: 0.5rem 3rem;
+}
+
+.logo {
+    width: 12.0%;
+    height: 15.0%;
+}
+
+footer {
+    background-color: #565656;
+    color: white;
+}
+
+.copyright {
+    background-color: white;
+    color: black;
+}
+
+.parrafo {
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 90px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.0em;
+}
+
+.iconos {
+    margin-top: 50px;
+}
+
+.well {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.logowa {
+    max-width: 100%;
+    width: auto;
+    height: 40px;
+}
+
+.contactanos {
+    padding: 25px;
+}
+
+.info2 {
+    padding-top: 10px;
+}
+
+.mi_main {
+    margin-top: 40px;
+}
+
+.line {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    padding: 0.09%;
+    background-color: black;
+    width: 40%;
+}
+
+.center-block {
+    width: 190px;
+    height: 190px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.inform {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.user {
+    align-items: center;
+    padding-top: 40px;
+}
+
+.titulos h1 {
+    font-family: 'Lobster', cursive;
+    padding: 60px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.datos {
+    padding-bottom: 30px;
+    padding-left: 60px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+}
+
+.datos p {
+    font-weight: bold;
+}
+
+.section h2 {
+    padding: 40px;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+}
+
+.section h1 {
+    padding: 60px;
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+}
+
+@media screen and (max-width: 800px) {
+    .logowa {
+        max-width: 100%;
+        width: auto;
+    }
+    .well {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .logowa {
+        max-width: 100%;
+        width: auto;
+        padding-right: 20px;
+    }
+    .well {
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logowa {
+        max-width: 100%;
+        width: auto;
+        height: 30px;
+        padding-right: 20px;
+    }
+    .well {
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+    }
+}

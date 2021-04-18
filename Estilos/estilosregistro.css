@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.main{
+    padding: 25px 10%;
+}
+header{
+    background-color: white;
+}
+body{
+    background-color: #CCE8FF;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+li, a{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: black;
+}
+.logo{
+    width: 12.0%;
+    height: 15.0%;
+}
+.tamimg
+{
+    width:100%;
+}
+.google img
+{
+    width: 32px;
+}
+.ingresar a
+{
+    text-decoration: none;
+    color: white;
+}

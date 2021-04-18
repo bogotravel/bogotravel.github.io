@@ -1,0 +1,204 @@
+* {
+	box-sizing: border-box;
+}
+
+
+.contenedor {
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.main{
+    background-color: #CCE8FF;
+    padding: 25px 10%;
+}
+body{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+li, a{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: black;
+}
+.logo{
+    width: 12.0%;
+    height: 15.0%;
+}
+footer{
+    background-color: #565656;
+    color: white;
+}
+.copyright{
+    background-color: white;
+    color: black;
+}
+.parrafo{
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 90px;
+}
+h3{
+    font-weight: bold;
+    font-size: 1.0em;
+}
+.iconos{
+    margin-top:50px;
+}
+.well{
+
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.logowa{
+    max-width:100%;
+		width:auto;
+		height:40px; 
+}
+.contactanos{
+    padding: 25px;
+}
+.info2{
+    padding-top:10px;
+}
+h1, h2
+{
+    font-family: 'Lobster', cursive;
+}
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__anterior, .carousel__anterior1, .carousel__anterior2, .carousel__anterior3, .carousel__anterior4,
+.carousel__siguiente,.carousel__siguiente1, .carousel__siguiente2, .carousel__siguiente3, .carousel__siguiente4 {
+	position: absolute;
+	display: block;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	opacity: 20%;
+}
+.infantil, .cultural, .historico,.familiar, .gastronomico
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.contenedor img{
+	max-width:100%;
+	width:auto;
+	height:310px;
+}
+.carousel__anterior:hover,.carousel__anterior1:hover, .carousel__anterior2:hover, .carousel__anterior3:hover, .carousel__anterior4:hover,
+.carousel__siguiente:hover, .carousel__siguiente1:hover, .carousel__siguiente2:hover, .carousel__siguiente3:hover, .carousel__siguiente4:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior, .carousel__anterior1, .carousel__anterior2, .carousel__anterior3, .carousel__anterior4 {
+	left: -30px;
+}
+
+.carousel__siguiente,.carousel__siguiente1, .carousel__siguiente2, .carousel__siguiente3, .carousel__siguiente4 {
+	right: -30px;
+}
+
+.carousel__lista, .carousel__lista2  {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+
+}
+
+@media screen and (max-width: 1200px) {
+	.contenedor img{
+		max-width:100%;
+		width:auto;
+		height:210px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.contenedor img{
+		max-width:100%;
+		width:auto;
+		height:210px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.contenedor img{
+		max-width:100%;
+		width:auto;
+		height:210px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.logowa{
+		max-width:100%;
+		width:auto;
+	}
+	.well{
+
+		display: flex;
+		align-items: center;
+	}
+}
+@media screen and (max-width: 770px) {
+	.logowa{
+		
+		max-width:100%;
+		width:auto;
+		padding-right: 20px;
+	}
+	.well{
+
+		display: flex;
+		align-items: center;
+		padding-left: 100px;
+	}
+}
+@media screen and (max-width: 500px) {
+	body {
+		padding: 40px 0;
+	}
+
+	.contenido-principal {
+		flex-direction: column;
+	}
+
+	.contenido-principal > * {
+		width: 100%;
+	}
+	.contenedor img{
+		max-width:100%;
+		width:auto;
+		height:150px;
+	}
+	.logowa{
+		max-width:100%;
+		width:auto;
+		height:30px; 
+		padding-right: 20px;
+	}
+	.well{
+
+		display: flex;
+		align-items: center;
+		padding-left: 100px;
+	}
+}
